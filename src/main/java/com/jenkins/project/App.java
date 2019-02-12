@@ -10,7 +10,7 @@ public class App
     {
         System.out.println( "Hello World!" );
         int response = callMethod();
-        if(response == 3)
+        if(response == 2)
         System.out.println( response);
     }
 
