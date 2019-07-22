@@ -4,7 +4,7 @@ pipeline {
     stages {
            stage('Clone sources') {
                steps {
-                git url: 'https://github.com/jfrogdev/project-examples.git'
+                git url: 'https://github.com/sourabgowda/JenkinsExample.git'
                }
            }
     }
