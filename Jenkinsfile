@@ -5,7 +5,7 @@ pipeline {
         stage('Junit') {
             steps {
                 echo 'run junits'
-                sh 'mvn clean install'
+                mvn clean install
             }
         }
         stage('Build') {
