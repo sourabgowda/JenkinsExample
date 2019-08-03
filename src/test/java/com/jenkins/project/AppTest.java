@@ -16,7 +16,7 @@ public class AppTest {
     @Test
     public void testApp(){
     	int response = App.callMethod();
-    	Assert.assertEquals(3,response);
+    	Assert.assertEquals(2,response);
     }
 
 }
